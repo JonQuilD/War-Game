@@ -50,7 +50,7 @@ function warCards() {
             }
         }
     }
-    document.getElementById("userCardNumber").innerHTML = userCard;
+    document.getElementById("userCardNumber").innerText = userCard;
 
    let dealerCard = Math.floor(Math.random() * 5 + 2);
     theDealersTurn.push(dealerCard)
