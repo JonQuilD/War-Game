@@ -1,0 +1,109 @@
+.players {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.heart {
+    font-size: 25px;
+    color: crimson;
+}
+.spade {
+    font-size: 25px;
+    color: coral;
+}
+.diamond {
+    font-size: 25px;
+    color: crimson;
+}
+.club {
+    font-size: 25px;
+    color: coral;
+    margin: 10px;
+}
+.SUITS {
+    display: grid;
+   grid-auto-rows: min-content;
+    justify-content: center;
+    align-items: center;
+
+}
+.card {
+    background-color:coral;
+    border-radius: 10px;
+    height: 80%;
+    padding: 10px;
+    margin: 30px;
+    width: 60%;
+    
+}
+.card > div {
+    text-align: center;
+    margin: 20px 0 0 25px;
+    font-weight: bolder;
+    font-size: 20px;
+    
+
+}
+
+.winPointer {
+    font-weight: bolder;
+    color: crimson;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:lemonchiffon
+}
+header {
+    color: coral;
+    font-size: 40px;
+    margin: 10px 0 30px 0;
+    
+}
+
+.playerName {
+    color:coral;
+    font-size:large;
+    font-weight: bolder;
+    
+}
+
+#mainbtn {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20%;
+    color:coral
+   padding 15px;
+   font-weight: bolder;
+   background-color: coral;
+   border-radius: 4px;
+   font-size:large
+   
+
+}
+
+#mainbtn:hover{
+    background-color:magenta
+
+}
+#restartbtn {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20%;
+    color:coral
+   padding 15px;
+   font-weight: bolder;
+   background-color: coral;
+   border-radius: 4px;
+   font-size:large
+
+}
+#restartbtn:hover{
+    background-color:magenta
+
+}
